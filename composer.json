@@ -1,0 +1,20 @@
+{
+    "name": "gaochangjian/test",
+    "description": "测试composer包",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "高长健",
+            "email": "1002145342@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload":{
+        "psr-4" : {
+            "Gaochangjian\\Test\\":"gaochangjian/Test"
+        } 
+    }
+}
